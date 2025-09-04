@@ -46,7 +46,7 @@ ggplot(cars, aes(x = speed, y = dist)) +
        x = "Speed",
        y = "Distance")
 ```
-```{r c3, eval=FALSE}
+```{bash, eval=FALSE}
 docker pull --platform=linux/amd64 nextgenusfs/funannotate
 conda create -n sequali_env python=3.10 -c conda-forge 
 conda activate sequali_env
